@@ -1,5 +1,23 @@
 ﻿namespace RequiredKeyword;
 
+public class Insect
+{
+    /// <summary>
+    ///     It's complaining here that our non nullable property doesn't get a value set after construction.
+    /// </summary>
+    public string Name { get; init; }
+}
+
+public class InsectContainer
+{
+    public InsectContainer()
+    {
+        var myBug = new Insect();
+    }
+}
+
+#region New Keyword
+
 /// <summary>
 ///     The new required keyword can replace the use of constructors.
 /// </summary>
@@ -9,6 +27,8 @@ public class Person
     public required string LastName { get; set; }
     public int Age { get; set; }
 }
+
+#endregion
 
 #region How It Works
 
