@@ -24,6 +24,12 @@ public class Example
         Assert.Equal("Pass", testText);
     }
 
+    [Fact]
+    public void OrderMattersThoFrFr()
+    {
+        Assert.False(_testList is ["World", ".", "Hello"]);
+    }
+
     #region The Discard Pattern, _
 
     [Fact]
