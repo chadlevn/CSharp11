@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringPatterns", "StringPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMath", "GenericMath\GenericMath.csproj", "{2CA63CD9-A3D6-4D03-9AEF-1E077D45F627}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructChanges", "StructChanges\StructChanges.csproj", "{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2CA63CD9-A3D6-4D03-9AEF-1E077D45F627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CA63CD9-A3D6-4D03-9AEF-1E077D45F627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CA63CD9-A3D6-4D03-9AEF-1E077D45F627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
