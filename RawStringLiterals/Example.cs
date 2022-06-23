@@ -2,8 +2,6 @@ namespace RawStringLiterals;
 
 public class Example
 {
-    // Raw String Literals are still in Preview, part of .NET 7
-
     /// <summary>
     ///     Raw string literals are a new format for string literals. 
     ///     A raw string literal starts with at least three double-quote (""") characters. It ends with the same number of double-quote characters.
