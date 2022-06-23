@@ -6,6 +6,10 @@ public class Example
 
     public Example()
     {
+        var ints = new List<int>() { 1, 2, 3 };
+
+        var myBool = ints is [1, 2, 3];
+
         _testList = new List<string>() { "Hello", "World", "." };
     }
 
@@ -37,9 +41,9 @@ public class Example
     {
         var testText = _testList switch
         {
-            [_, "World", "."] => "Pass",
+            //[_, "World", "."] => "Pass",
             //[_, "World", _] => "Pass",
-            //[_, _, _] => "Pass",
+            [_, _, _] => "Pass",
             _ => "Fail"
         };
 
@@ -55,9 +59,9 @@ public class Example
     {
         var testText = _testList switch
         {
-            [.., "."] => "Pass",
+            //[.., "."] => "Pass",
             //["Hello", ..] => "Pass",
-            //[..] => "Pass",
+            [..] => "Pass",
             _ => "Fail"
         };
 

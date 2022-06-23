@@ -22,6 +22,13 @@ public class Example
             Hello World.
             """;
 
+        var json =
+            """
+            {
+                "object": "stuff"
+            }
+            """;
+
         Assert.Equal("Hello World.", testString);
     }
 
@@ -46,9 +53,9 @@ public class Example
     ///     If you want to mix interpolation with JSON, just add extra dollar signs equal to how many you'd like the escape count to be.
     /// </summary>
     public string EscapedByBrackets =
-        $$"""
+        $$$"""
         {
-            "parameter": "Hello {{_world}}."
+            "parameter": "Hello {{{_world}}}."
         }
         """;
 
@@ -60,9 +67,17 @@ public class Example
     ///     If you need a lot of double quotes for some reason (seriously though, why do you need so many?) you can escape them by increasing the opening and closing quotes until you have a greater number.
     /// </summary>
     public string EscapedByQuotes =
-        """""
-        Sometimes you need a """"LOT"""" of double quotes!
-        """"";
+        """""""
+        Sometimes you need a """""LOT""""" of double quotes!
+        """"""";
 
     #endregion
+
+    [Fact]
+    public void RyansQuestion()
+    {
+        var testLiteral = """Hello """;
+
+        Assert.Equal("Hello World.", testLiteral + "World.");
+    }
 }

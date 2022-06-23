@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawStringLiterals", "RawStringLiterals\RawStringLiterals.csproj", "{ABA0C478-E1E8-401F-9B45-480E709253CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8 RawStringLiterals", "RawStringLiterals\8 RawStringLiterals.csproj", "{ABA0C478-E1E8-401F-9B45-480E709253CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredKeyword", "RequiredKeyword\RequiredKeyword.csproj", "{92759650-FD83-482F-A388-FFF9E75E1382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7 RequiredKeyword", "RequiredKeyword\7 RequiredKeyword.csproj", "{92759650-FD83-482F-A388-FFF9E75E1382}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericAttributes", "GenericAttributes\GenericAttributes.csproj", "{70825930-B610-44B9-82DA-9F341028FE93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 GenericAttributes", "GenericAttributes\1 GenericAttributes.csproj", "{70825930-B610-44B9-82DA-9F341028FE93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 ListPatterns", "ListPatterns\6 ListPatterns.csproj", "{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOfChanges", "NameOfChanges\NameOfChanges.csproj", "{0F3CBFF9-66AD-4019-8806-6AC07E81AE26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 NameOfChanges", "NameOfChanges\4 NameOfChanges.csproj", "{0F3CBFF9-66AD-4019-8806-6AC07E81AE26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringPatterns", "StringPatterns\StringPatterns.csproj", "{3EF84227-B030-49D5-9D51-320CAB89C05D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 StringPatterns", "StringPatterns\5 StringPatterns.csproj", "{3EF84227-B030-49D5-9D51-320CAB89C05D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMath", "GenericMath\GenericMath.csproj", "{2CA63CD9-A3D6-4D03-9AEF-1E077D45F627}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 GenericMath", "GenericMath\2 GenericMath.csproj", "{2CA63CD9-A3D6-4D03-9AEF-1E077D45F627}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructChanges", "StructChanges\StructChanges.csproj", "{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3 StructChanges", "StructChanges\3 StructChanges.csproj", "{B01BCBB0-7A49-423B-8C27-66890CCD8CE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
