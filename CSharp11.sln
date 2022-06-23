@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredKeyword", "Required
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericAttributes", "GenericAttributes\GenericAttributes.csproj", "{70825930-B610-44B9-82DA-9F341028FE93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatterns", "ListPatterns\ListPatterns.csproj", "{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{70825930-B610-44B9-82DA-9F341028FE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70825930-B610-44B9-82DA-9F341028FE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70825930-B610-44B9-82DA-9F341028FE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8A2DDB-170F-44E9-AB13-2DD0D795057F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
