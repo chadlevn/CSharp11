@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatterns", "ListPattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameOfChanges", "NameOfChanges\NameOfChanges.csproj", "{0F3CBFF9-66AD-4019-8806-6AC07E81AE26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringPatterns", "StringPatterns\StringPatterns.csproj", "{3EF84227-B030-49D5-9D51-320CAB89C05D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0F3CBFF9-66AD-4019-8806-6AC07E81AE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F3CBFF9-66AD-4019-8806-6AC07E81AE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F3CBFF9-66AD-4019-8806-6AC07E81AE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF84227-B030-49D5-9D51-320CAB89C05D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF84227-B030-49D5-9D51-320CAB89C05D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF84227-B030-49D5-9D51-320CAB89C05D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF84227-B030-49D5-9D51-320CAB89C05D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
