@@ -8,6 +8,8 @@ public class Example
     /// </summary>
     public string LiteralString = """This is a literal string""";
 
+    #region New Lines
+
     /// <summary>
     ///     New lines for the beginning and end don't count. The example below prints "Hello World."
     /// </summary>
@@ -23,6 +25,10 @@ public class Example
         Assert.Equal("Hello World.", testString);
     }
 
+    #endregion
+
+    #region String Interpolation
+
     /// <summary>
     ///     Interpolation can be mixed with this, just as you might expect.
     /// </summary>
@@ -31,6 +37,10 @@ public class Example
         $"""
         Hello {_world}.
         """;
+
+    #endregion
+
+    #region Escape Brackets
 
     /// <summary>
     ///     If you want to mix interpolation with JSON, just add extra dollar signs equal to how many you'd like the escape count to be.
@@ -42,6 +52,10 @@ public class Example
         }
         """;
 
+    #endregion
+
+    #region Escape Quotes
+
     /// <summary>
     ///     If you need a lot of double quotes for some reason (seriously though, why do you need so many?) you can escape them by increasing the opening and closing quotes until you have a greater number.
     /// </summary>
@@ -49,4 +63,6 @@ public class Example
         """""
         Sometimes you need a """"LOT"""" of double quotes!
         """"";
+
+    #endregion
 }
